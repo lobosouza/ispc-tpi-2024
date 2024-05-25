@@ -70,10 +70,11 @@ En esta parte inicial del proyecto, proponemos realizar un sistema de selección
 
 <h4 id='pseudocodigo'><strong>PSEUDOCÓDIGO</strong></h4>
 
-<img src="./images/diagrama-pseudocodigo.jpeg" />
+<p align="center"><a href="https://github.com/rociogirardini/ispc-tpi-2024/tree/main/introduccion-a-la-programacion"><strong>Ver pseudocódigo »</strong></a></p>
+
 
 <h3 align="center" id="etica">Etica y Deontología Profesional</h3>
+<p align="center"><a href="#"><strong>Ver Wiki »</strong></a></p>
 
 <h3 align="center" id="bbdd">Base de datos I</h3>
-
-<p><strong>Diagrama de Chen</strong></p>
+<p align="center"><a href="#"><strong>Ver Diagrama Entidad - Relación »</strong></a></p>
