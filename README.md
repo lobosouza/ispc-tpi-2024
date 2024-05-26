@@ -39,7 +39,7 @@
 
 # Integrantes
 
-Carolina Araque - carolinaaraq@gmail.com - https://github.com/Caroaraque2024 </br>
+Carolina Araque - 30.721.217 - carolinaaraq@gmail.com - https://github.com/Caroaraque2024 </br>
 Joaquin Dorgnach - 45.704.025 - dorgnachj@gmail.com - https://github.com/dorgnachj</br>
 Lucas Ryser - 44.346.194 - lucasryser4k@gmail.com - https://github.com/lucasryser6</br>
 Emanuel Guaráz - 38.276.061- guarazjemanuel@gmail.com https://github.com/JEmanuelG</br>
