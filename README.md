@@ -74,7 +74,7 @@ En esta parte inicial del proyecto, proponemos realizar un sistema de selección
 
 
 <h3 align="center" id="etica">Etica y Deontología Profesional</h3>
-<p align="center"><a href="#"><strong>Ver Wiki »</strong></a></p>
+<p align="center"><a href="https://github.com/rociogirardini/ispc-tpi-2024/wiki"><strong>Ver Wiki »</strong></a></p>
 
 <h3 align="center" id="bbdd">Base de datos I</h3>
-<p align="center"><a href="#"><strong>Ver Diagrama Entidad - Relación »</strong></a></p>
+<p align="center"><a href="https://github.com/rociogirardini/ispc-tpi-2024/blob/main/base-de-datos-1/diagrama_entidad_relacion.jpg"><strong>Ver Diagrama Entidad - Relación »</strong></a></p>
