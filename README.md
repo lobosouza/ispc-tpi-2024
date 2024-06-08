@@ -72,6 +72,45 @@ En esta parte inicial del proyecto, proponemos realizar un sistema de selección
 
 <p align="center"><a href="https://github.com/rociogirardini/ispc-tpi-2024/tree/main/introduccion-a-la-programacion"><strong>Ver pseudocódigo »</strong></a></p>
 
+<h4 id='descripcion-archivos'><strong>DESCRIPCIÓN DE LOS ARCHIVOS</strong></h4>
+
+#### `index.py` 
+
+<p>Este archivo contiene el punto de entrada de la aplicación y la función principal `seleccion_personal()`, que maneja el menú y las opciones del usuario.</p>
+
+<h4> <strong> 📂 Carpeta `candidatos` </strong> </h4>
+
+<p>Contiene los archivos:</p>
+
+#### `candidatos.py`
+
+<p>Este módulo contiene una función llamada `ver_candidatos()`, la cual permite ver una lista detallada de todos los candidatos existentes en la base de datos.</p>
+
+#### `filtros.py`
+
+<p>Acá se encuentra la función `filtrar_por_requisitos()` donde el usuario podría ingresar ciertas características del candidato, como lugar de residencia, experiencia o educación y la función mostraría solo aquellos candidatos que coincidan con los filtros de búsqueda.</p>
+
+<h4> <strong> 📂 Carpeta `vacante` </strong> </h4>
+
+<p>Contiene los archivos del CRUD de una vacante:</p>
+
+#### `create.py`
+
+<p>Contiene la función `cargar_vacante()` donde se le solicitarían al usuario todos los datos relacionados a la vacante, tales como título del puesto, descripción, condiciones de contratación, entre otros.</p>
+
+#### `read.py`
+
+<p>En este archivo se encuentra la función `ver_vacantes()`, que traería un listado de todas las vacantes disponibles.</p>
+
+#### `update.py`
+
+<p>Contiene la función `modificar_vacante()` donde el usuario, mediante el previo ingreso del ID de la vacante que desea modificar, podría modificar cualquiera de sus datos.</p>
+
+#### `delete.py`
+
+<p>Acá se encuentra la función `eliminar_vacante()` donde el usuario debe ingresar el ID de la vacante que desea eliminar para que esta sea quitada de la base de datos.</p>
+
+
 
 <h3 align="center" id="etica">Etica y Deontología Profesional</h3>
 <p align="center"><a href="https://github.com/rociogirardini/ispc-tpi-2024/wiki"><strong>Ver Wiki »</strong></a></p>
