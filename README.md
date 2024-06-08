@@ -74,11 +74,13 @@ En esta parte inicial del proyecto, proponemos realizar un sistema de selección
 
 <h4 id='descripcion-archivos'><strong>DESCRIPCIÓN DE LOS ARCHIVOS</strong></h4>
 
+<p>En algunos archivos se encuentra comentado un pequeño desarrollo de la función. En el alta de las vacantes, por ejemplo, considérese <code>vacantes</code> como un directorio.</p>
+
 #### `index.py` 
 
 <p>Este archivo contiene el punto de entrada de la aplicación y la función principal `seleccion_personal()`, que maneja el menú y las opciones del usuario.</p>
 
-<h4> <strong> 📂 Carpeta `candidatos` </strong> </h4>
+<h4> <strong> 📂 Carpeta <code>candidatos</code> </strong> </h4>
 
 <p>Contiene los archivos:</p>
 
@@ -90,7 +92,7 @@ En esta parte inicial del proyecto, proponemos realizar un sistema de selección
 
 <p>Acá se encuentra la función `filtrar_por_requisitos()` donde el usuario podría ingresar ciertas características del candidato, como lugar de residencia, experiencia o educación y la función mostraría solo aquellos candidatos que coincidan con los filtros de búsqueda.</p>
 
-<h4> <strong> 📂 Carpeta `vacante` </strong> </h4>
+<h4> <strong> 📂 Carpeta <code>vacante</code> </strong> </h4>
 
 <p>Contiene los archivos del CRUD de una vacante:</p>
 
