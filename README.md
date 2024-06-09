@@ -73,7 +73,7 @@ En esta parte inicial del proyecto, proponemos realizar un sistema de selección
 
 <p align="center"><a href="https://github.com/rociogirardini/ispc-tpi-2024/tree/main/introduccion-a-la-programacion"><strong>Ver pseudocódigo »</strong></a></p>
 
-<h4<strong>"MENÚ DE SELECCION DE PERSONAL"</strong></h4>
+"MENÚ DE SELECCION DE PERSONAL"
 
 <h4 id='descripcion-archivos'><strong>DESCRIPCIÓN DE LOS ARCHIVOS</strong></h4>
 
