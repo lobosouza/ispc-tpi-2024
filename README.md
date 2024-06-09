@@ -119,3 +119,4 @@ En esta parte inicial del proyecto, proponemos realizar un sistema de selección
 
 <h3 align="center" id="bbdd">Base de datos I</h3>
 <p align="center"><a href="https://github.com/rociogirardini/ispc-tpi-2024/blob/main/base-de-datos-1/diagrama_entidad_relacion.jpg"><strong>Ver Diagrama Entidad - Relación »</strong></a></p>
+<p align="center"><a href="https://github.com/rociogirardini/ispc-tpi-2024/blob/main/base-de-datos-1/PROYECTO%20DATA%20HUMAN%C2%B4S%20Diagrama%20Crow%20Food%20(1).jpeg"><strong>Ver Diagrama Crows Foot</strong></a></p> 
