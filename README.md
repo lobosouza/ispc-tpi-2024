@@ -25,6 +25,7 @@
         <li><a href="#presentación">Presentación del proyecto</a></li>
         <li><a href="#descripción">Descripción inicial</a></li>
         <li><a href="#pseudocodigo">Pseudocódigo</a></li>
+        <li><a href="#descripcion-archivos">Menu de Selecciión de personal</a></li>
       </ul>
     </li>
     <li><a href="#etica">Etica y Deontología Profesional</a></li>
@@ -71,6 +72,8 @@ En esta parte inicial del proyecto, proponemos realizar un sistema de selección
 <h4 id='pseudocodigo'><strong>PSEUDOCÓDIGO</strong></h4>
 
 <p align="center"><a href="https://github.com/rociogirardini/ispc-tpi-2024/tree/main/introduccion-a-la-programacion"><strong>Ver pseudocódigo »</strong></a></p>
+
+<h4<strong>"MENÚ DE SELECCION DE PERSONAL"</strong></h4>
 
 <h4 id='descripcion-archivos'><strong>DESCRIPCIÓN DE LOS ARCHIVOS</strong></h4>
 
