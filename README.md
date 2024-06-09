@@ -25,6 +25,7 @@
         <li><a href="#presentación">Presentación del proyecto</a></li>
         <li><a href="#descripción">Descripción inicial</a></li>
         <li><a href="#pseudocodigo">Pseudocódigo</a></li>
+        <li><a href="#descripcion-archivos">Menu de Selecciión de personal</a></li>
       </ul>
     </li>
     <li><a href="#etica">Etica y Deontología Profesional</a></li>
@@ -72,13 +73,17 @@ En esta parte inicial del proyecto, proponemos realizar un sistema de selección
 
 <p align="center"><a href="https://github.com/rociogirardini/ispc-tpi-2024/tree/main/introduccion-a-la-programacion"><strong>Ver pseudocódigo »</strong></a></p>
 
+"MENÚ DE SELECCION DE PERSONAL"
+
 <h4 id='descripcion-archivos'><strong>DESCRIPCIÓN DE LOS ARCHIVOS</strong></h4>
+
+<p>En algunos archivos se encuentra comentado un pequeño desarrollo de la función. En el alta de las vacantes, por ejemplo, considérese <code>vacantes</code> como un directorio.</p>
 
 #### `index.py` 
 
 <p>Este archivo contiene el punto de entrada de la aplicación y la función principal `seleccion_personal()`, que maneja el menú y las opciones del usuario.</p>
 
-<h4> <strong> 📂 Carpeta `candidatos` </strong> </h4>
+<h4> <strong> 📂 Carpeta <code>candidatos</code> </strong> </h4>
 
 <p>Contiene los archivos:</p>
 
@@ -90,7 +95,7 @@ En esta parte inicial del proyecto, proponemos realizar un sistema de selección
 
 <p>Acá se encuentra la función `filtrar_por_requisitos()` donde el usuario podría ingresar ciertas características del candidato, como lugar de residencia, experiencia o educación y la función mostraría solo aquellos candidatos que coincidan con los filtros de búsqueda.</p>
 
-<h4> <strong> 📂 Carpeta `vacante` </strong> </h4>
+<h4> <strong> 📂 Carpeta <code>vacante</code> </strong> </h4>
 
 <p>Contiene los archivos del CRUD de una vacante:</p>
 
@@ -117,3 +122,4 @@ En esta parte inicial del proyecto, proponemos realizar un sistema de selección
 
 <h3 align="center" id="bbdd">Base de datos I</h3>
 <p align="center"><a href="https://github.com/rociogirardini/ispc-tpi-2024/blob/main/base-de-datos-1/diagrama_entidad_relacion.jpg"><strong>Ver Diagrama Entidad - Relación »</strong></a></p>
+<p align="center"><a href="https://github.com/rociogirardini/ispc-tpi-2024/blob/main/base-de-datos-1/PROYECTO%20DATA%20HUMAN%C2%B4S%20Diagrama%20Crow%20Food%20(1).jpeg"><strong>Ver Diagrama Crows Foot</strong></a></p> 

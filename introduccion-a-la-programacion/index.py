@@ -17,7 +17,7 @@ def seleccion_personal():
         print("6. Ver todas las vacantes")
         print("7. Salir")
 
-        opcion = input("Seleccione una opción (1-5): ")
+        opcion = input("Seleccione una opción (1-7): ")
 
         if opcion == "1":
             ver_candidatos()
