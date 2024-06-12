@@ -2,6 +2,8 @@ import os
 
 # contador_id = 1 # Generador manual de IDs
 
+# el id se puedo configurar directamente en SQL como AUTO_INCREMENT y a medida que hacemos registros le asigna el id siguiente
+
 def cargar_vacante():
     os.system('clear')
     print('\nDatos de la nueva vacante:\n')
@@ -16,3 +18,30 @@ def cargar_vacante():
     # vacantes[id] = {"titulo": titulo, "descripcion": descripcion, "id": id,
     #                 "condicion_contratacion": condicion_contratacion, "se_considera": se_considera}
     # print("Vacante agregada correctamente.")
+
+
+
+# ------------------------------- CONECTAR CON DB ---------------------------------------
+
+    '''import mysql.connector
+
+    conexion = mysql.connector.connect(user='root',
+                                    password='123456',
+                                    host='localhost',
+                                    port='3306',
+                                    database='data_humans.db')
+
+    cursor = conexion.cursor()
+
+    # Solo para plantear el problema, se ingresan datos str para darle al menos un dato a la sentencia de sql
+    a = input()
+    b = input()
+    c = input()
+    d = input()
+
+    cursor.execute(f"INSERT INTO VACANTE/S VALUES ({a}, {b}, {c}, {d})")
+
+    conexion.commit()
+
+    conexion.close
+'''

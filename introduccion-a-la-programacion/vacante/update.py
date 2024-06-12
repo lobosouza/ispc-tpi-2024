@@ -17,3 +17,25 @@ def modificar_vacante():
     #         print("No se han realizado modificaciones.")
     # else:
     #     print("La vacante con ese ID no existe en la base de datos.")
+
+
+
+
+# ------------------------------- CONECTAR CON DB ---------------------------------------
+    '''import mysql.connector
+
+    conexion = mysql.connector.connect(user='root',
+                                    password='123456',
+                                    host='localhost',
+                                    port='3306',
+                                    database='data_humans.db')
+
+    cursor = conexion.cursor()
+
+    a = input()
+    b = input()
+
+    cursor.execute (f"UPDATE VACANT/S SET algo = {a} WHERE algo = {b}'") # Esto solo es un ejemplo, falta desarrollar segun condiciones
+
+    conexion.commit()
+    conexion.close()'''
