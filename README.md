@@ -83,7 +83,7 @@ En esta parte inicial del proyecto, proponemos realizar un sistema de selección
 
 <p>Contiene los archivos:</p>
 
-📂 Carpeta Notación Crow Foot - .mwb y .sql
+📂 Carpeta notacion-crows foot-mwb-sql
  - DER-MYSQL.mwb y DER-MYSQL.mwb.bak
 
  <p>Ambos archivos contienen el Modelo Crow Foot en sus respectivos formatos</p>
