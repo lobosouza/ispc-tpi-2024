@@ -40,3 +40,7 @@ def seleccion_personal():
 
 if __name__ == "__main__":
     seleccion_personal()
+
+
+# MODULARIZAR CONEXION CON BASE DE DATOS
+# HACER VALIDACIONES DE DATOS, SI EXISTEN, SI SON LOS DATOS ESPERADOS, ETC
