@@ -39,6 +39,7 @@
       <a href="#tutorial">Pasos para utilizar la aplicación</a>
     </li>
      <li><a href="#video">Link al Video</a>
+          <li><a href="#PDF">Link al PDF</a>
   </ul>
 </details>
 
@@ -206,5 +207,5 @@ En esta parte inicial del proyecto, proponemos realizar un sistema de selección
 
 <hr />
 
-<h3 align="center" id="etica">Video explicativo</h3>
+<h3 align="center" id="PDF">Video explicativo</h3>
 <p align="center"><a href="https://drive.google.com/drive/folders/11EwPR3i7tPjwEvff2iqrhC7W5VAbgdK1?usp=sharing"><strong>Link al video »</strong></a></p>
