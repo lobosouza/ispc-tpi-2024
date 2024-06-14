@@ -182,7 +182,7 @@ En esta parte inicial del proyecto, proponemos realizar un sistema de selección
 <h4>2. Preparación de entornos</h4>
 
 <ul>
-<li> Abrir mySQL Workbench. Buscar la tab "Server" en la tab superior y hacer clic en "Data Import". </li>
+<li> Abrir mySQL Workbench y abrí tu instancia local (o creá una nueva, si no la tuvieras). Buscar la tab "Server" en la tab superior y hacer clic en "Data Import". </li>
 <li>Seleccionar la opción "Import from Self-Contained File" y buscar en tus documentos el archivo descargado  <code>datahumans_db.sql</code></li>
 <li>En la opción "Default Target Schema" hacer clic en "New" y escribir "DataHumansSchema"</li>
 <li>En el menú desplegable que aparece al final de la pantalla, asegurarse de tener seleccionada la opción "Dump Structure and Data"</li>
