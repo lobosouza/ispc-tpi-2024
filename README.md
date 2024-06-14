@@ -202,7 +202,7 @@ En esta parte inicial del proyecto, proponemos realizar un sistema de selección
 <hr />
 
 <h3 align="center" id="etica">Presentación en PDF</h3>
-<p align="center"><a href="https://github.com/rociogirardini/ispc-tpi-2024/blob/main/db/Base de datos del proyecto, sus diagramas y SQL"><strong>Ver Presentación en PDF »</strong></a></p>
+<p align="center"><a href="https://github.com/rociogirardini/ispc-tpi-2024/blob/main/db/Base%20de%20datos%20del%20proyecto%2C%20sus%20diagramas%20y%20SQL.pdf"><strong>Ver Presentación en PDF »</strong></a></p>
 
 <hr />
 
