@@ -92,7 +92,15 @@ En esta parte inicial del proyecto, proponemos realizar un sistema de selección
 
 - caracteristicaspuesto.sql, empresa.sql, formularioaspirante.sql, nivelacademico.sql, postulante.sql, puestodeseado.sql, residencia.sql y vacantes.sql
 <p>Esta carpeta contiene 8 archivos con cada una de las tablas del modelo (caracteristicaspuesto, empresa, formularioaspirante, nivelacademico, postulante, puestodeseado, residencia y vacantes)</p>
-<p>Además de un noveno archivo llamado <code>datahumans_db.sql</code> con la base de datos completa de la aplicación. Este archivo será el que utilizaremos para la ejecución de la aplicación (más adelante se encuentran los pasos a seguir).</p>
+
+- datahumans_db.sql
+<p>Archivo con la base de datos completa de la aplicación. Este archivo será el que utilizaremos para la ejecución de la aplicación (más adelante se encuentran los pasos a seguir).</p>
+
+- datahumans_estructura.sql
+<p>Contiene únicamente la estructura del esquema, sin datos.</p>
+
+- datahumans_consultas.sql
+<p>En este archivo se encuentran diferentes consultas para hacer sobre la base de datos.</p>
 
 🖼️ Imagen diagrama_entidad_relacion.jpg
 
