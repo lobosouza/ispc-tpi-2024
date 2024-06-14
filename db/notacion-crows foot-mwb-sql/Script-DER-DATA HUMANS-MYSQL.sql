@@ -33,7 +33,6 @@ CREATE TABLE IF NOT EXISTS `data_human´s`.`vacantes` (
   `Id_formulario` INT NOT NULL,
   PRIMARY KEY (`Id_vacantes`),
   UNIQUE INDEX `Id_VACANTE/S_UNIQUE` (`Id_vacantes` ASC) VISIBLE,
-  UNIQUE INDEX `Id_EMPRESA_UNIQUE` (`Id_empresa` ASC) VISIBLE,
   UNIQUE INDEX `Id_FORMULARIO_UNIQUE` (`Id_formulario` ASC) VISIBLE)
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8mb4
