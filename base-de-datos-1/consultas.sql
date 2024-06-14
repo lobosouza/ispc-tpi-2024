@@ -1,3 +1,22 @@
+insert into caracteristicaspuesto (Id_caractpuesto, Id_vacantes, Descripcion, Condicioncontratacion, Experiencia, Excluyente, Seconsidera)
+values ('31007, '30007, 'Se solicita Maestranza de caracter urgente', 'Permanente', 'Sin Experiencia',
+'Mayor de edad, residir en Cordoba Capital', 'Buena presencia');
+
+Select * from postulantes;
+
+Select empresa.Razonsocial, empresa.Rubro, empresa.Cuit from empresa;
+
+Select * from empresa where Cantvacantes >= 3 and Cantvacantes <= 10;
+
+Select * from postulante where residencia = 'Cordoba' limit 5;
+
+Select * from postulante
+where postulante.Fechanacimiento between "1991-02-07" and "1944-02-27";
+
+Select empresa.Id_empresa, empresa.Razonsocial, empresa.Rubro, vacantes.Titulopuesto, vacantes.Cantvacantes, vacantes.Fechavacantes
+From empresa
+INNER JOIN vacantes ON empresa.Id_empresa = vacantes.Id_empresa
+
 -- Crear el esquema
 CREATE SCHEMA IF NOT EXISTS `data_human´s` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
 USE `data_human´s`;
