@@ -17,7 +17,7 @@ def filtrar_por_requisitos():
         print("1. Residencia en Cordoba")
         print("2. Nivel academico")
         print("3. Puesto deseado")
-        print("4. Salir")
+        print("4. Volver al menú principal")
         print("\n\n")
 
         opcion = input("Seleccione una opción (1-4): ")
@@ -79,7 +79,7 @@ def filtrar_por_requisitos():
                 postulantes_cba = cursor.fetchall()
             
             elif puesto == 4:
-                cursor.execute("SELECT * FROM postulante WHERE Nivelacademico = 'Productor'")
+                cursor.execute("SELECT * FROM postulante WHERE Puestodeseado = 'Productor'")
                 postulantes_cba = cursor.fetchall()
 
             for postulante in postulantes_cba:

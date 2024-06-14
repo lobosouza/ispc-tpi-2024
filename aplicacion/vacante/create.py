@@ -12,7 +12,7 @@ def cargar_vacante():
     cuit = int(input("Ingresa el CUIT de tu empresa (Sin puntos ni guiones 11 digitos): "))
     titulo_puesto = input("\nIngresá el título del puesto vacante: ")
     descripcion = (input("Ingresá una descripción: "))
-    condicion_contratacion = input("Ingresá las condiciones de contratación (por tiempo indeterminado/determinado): ")
+    condicion_contratacion = input("Ingresá las condiciones de contratación (Temporal/Permanente): ")
     experiencia = input("Se requiere experiencia?")
     excluyente = input("Condiciones excluyentes:")
     se_considera = str(input("Otras consideraciones del puesto:"))
@@ -77,7 +77,7 @@ def cargar_vacante():
     cursor.execute(f'''INSERT INTO caracteristicaspuesto (Id_caractpuesto,
                                                         Id_vacantes,
                                                         Descripcion,
-                                                        Condicion_contratacion,
+                                                        Condicioncontratacion,
                                                         Experiencia,
                                                         Excluyente,
                                                         Seconsidera) 
@@ -95,5 +95,3 @@ def cargar_vacante():
     conexion.commit()
 
     conexion.close()
-
-#cargar_vacante()

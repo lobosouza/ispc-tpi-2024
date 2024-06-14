@@ -18,7 +18,7 @@ def modificar_vacante():
     vac = cursor.fetchall()
     vac = vac[0]
 
-    cursor.execute(f'SELECT Descripcion, Condicion_contratacion, Seconsidera FROM caracteristicaspuesto WHERE Id_caractpuesto = {vac[4]}')
+    cursor.execute(f'SELECT Descripcion, Condicioncontratacion, Seconsidera FROM caracteristicaspuesto WHERE Id_caractpuesto = {vac[4]}')
     caracteristica_puesto = cursor.fetchall()
 
     print("Datos actuales:")
@@ -39,7 +39,7 @@ def modificar_vacante():
     cursor.execute(f"UPDATE vacantes SET Titulopuesto = '{nvo_titulo}' WHERE Id_vacantes = {vac[0]}")
     conexion.commit()
 
-    cursor.execute(f"""UPDATE caracteristicaspuesto SET Descripcion = '{nva_desc}', Condicion_contratacion = '{nva_condicion}', Seconsidera = '{nvo_seconsidera}' 
+    cursor.execute(f"""UPDATE caracteristicaspuesto SET Descripcion = '{nva_desc}', Condicioncontratacion = '{nva_condicion}', Seconsidera = '{nvo_seconsidera}' 
                    WHERE Id_caractpuesto = {vac[4]}""")
     conexion.commit()
 

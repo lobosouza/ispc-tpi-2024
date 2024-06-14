@@ -22,5 +22,3 @@ def eliminar_vacante():
     conexion.commit()
 
     conexion.close()
-
-#eliminar_vacante()
