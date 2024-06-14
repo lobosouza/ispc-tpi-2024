@@ -184,7 +184,7 @@ En esta parte inicial del proyecto, proponemos realizar un sistema de selección
 <ul>
 <li> Abrir mySQL Workbench y abrí tu instancia local (o creá una nueva, si no la tuvieras). Buscar la tab "Server" en la tab superior y hacer clic en "Data Import". </li>
 <li>Seleccionar la opción "Import from Self-Contained File" y buscar en tus documentos el archivo descargado  <code>datahumans_db.sql</code></li>
-<li>En la opción "Default Target Schema" hacer clic en "New" y escribir "DataHumansSchema"</li>
+<li>En la opción "Default Target Schema" hacer clic en "New" y escribir "data_human´s"</li>
 <li>En el menú desplegable que aparece al final de la pantalla, asegurarse de tener seleccionada la opción "Dump Structure and Data"</li>
 <li>Una vez hecha la importación, si aún no aparece en el menú "Schemas" de la izquierda, hacer clic en el ícono de Refrescar (se encuentra al lado de la palabra SCHEMA)</li>
 <li>Abrir la carpeta <code>aplicacion</code> en Visual Studio Code</li>
@@ -197,6 +197,7 @@ En esta parte inicial del proyecto, proponemos realizar un sistema de selección
 <li>Una vez dentro de la carpeta aplicacion, ejecutar en la terminal "pip install dependencias.txt" o, si no anduviera, ejecutar directamente "pip install mysql-connector-python"</li>
 <li>En el VSC, ejecutar Crtl + Shift + F y escribir "mysql.connector.connect"</li>
 <li>En todos los archivos donde se use "mysql.connector.connect", cambiar el campo "password" por tu contraseña de mySQL</li>
+<li>Además, agregar el campo "port" como <code>port='3306'</code></li>
 <li>Ejecutar el comando "python index.py"</li>
 <li>¡Listo! Ahora queda seguir los pasos del menú en la terminal</li>
 </ul>
