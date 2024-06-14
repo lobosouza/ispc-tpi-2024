@@ -38,6 +38,7 @@
         <li>
       <a href="#tutorial">Pasos para utilizar la aplicación</a>
     </li>
+     <li><a href="#video">Link al Video</a>
   </ul>
 </details>
 
@@ -88,10 +89,7 @@ En esta parte inicial del proyecto, proponemos realizar un sistema de selección
 
  <p>Ambos archivos contienen el Modelo Crow Foot en sus respectivos formatos</p>
 
-📂 Carpeta Script BD Data Humans
-
-- caracteristicaspuesto.sql, empresa.sql, formularioaspirante.sql, nivelacademico.sql, postulante.sql, puestodeseado.sql, residencia.sql y vacantes.sql
-<p>Esta carpeta contiene 8 archivos con cada una de las tablas del modelo (caracteristicaspuesto, empresa, formularioaspirante, nivelacademico, postulante, puestodeseado, residencia y vacantes)</p>
+📂 Carpeta datahumans_db
 
 - datahumans_db.sql
 <p>Archivo con la base de datos completa de la aplicación. Este archivo será el que utilizaremos para la ejecución de la aplicación (más adelante se encuentran los pasos a seguir).</p>
@@ -106,7 +104,7 @@ En esta parte inicial del proyecto, proponemos realizar un sistema de selección
 
 <p> El modelo Entidad-Relación entregado en la segunda evidencia</p>
 
-🖼️ Imagen PROYECTO DATA HUMAN´S DCF (completo).jpeg
+🖼️ Imagen diagrama_crow_foot.jpeg
 
 <p> El modelo Crow Foot entregado en la tercer evidencia</p>
 
@@ -160,8 +158,8 @@ En esta parte inicial del proyecto, proponemos realizar un sistema de selección
 <hr />
 
 <h3 align="center" id="bbdd">Base de datos I</h3>
-<p align="center"><a href="https://github.com/rociogirardini/ispc-tpi-2024/blob/main/base-de-datos-1/diagrama_entidad_relacion.jpg"><strong>Ver Diagrama Entidad - Relación »</strong></a></p>
-<p align="center"><a href="https://github.com/rociogirardini/ispc-tpi-2024/blob/main/base-de-datos-1/PROYECTO%20DATA%20HUMAN%C2%B4S%20Diagrama%20Crow%20Food%20(1).jpeg"><strong>Ver Diagrama Crows Foot »</strong></a></p>
+<p align="center"><a href="https://github.com/rociogirardini/ispc-tpi-2024/blob/main/db/diagrama_entidad_relacion.jpg"><strong>Ver Diagrama Entidad - Relación »</strong></a></p>
+<p align="center"><a href="https://github.com/rociogirardini/ispc-tpi-2024/blob/main/db/diagrama_crow_foot.jpeg"><strong>Ver Diagrama Crows Foot »</strong></a></p>
 
 <hr />
 
@@ -170,8 +168,14 @@ En esta parte inicial del proyecto, proponemos realizar un sistema de selección
 <h4>1. Descarga de archivos necesarios</h4>
 
 <ul>
-<li> Descargar la carpeta <code>aplicacion</code> </li>
-<li> Descargar el archivo <code>datahumans_db.sql</code> desde la carpeta base-de-datos-1 > Script DB Data Humans > datahumans_db.sql</li>
+<li> Al inicio de este repositorio, hacer clic en el botón verde "Code" y seleccionar la opción Download ZIP</li>
+<li> Buscar el archivo en tu computadora y descomprimirlo</li>
+<li> Tener a mano solo los archivos:
+<ul>
+<li> Carpeta "aplicación"</li>
+<li> Archivo "datahumans_db.sql" que se encuentra en la carpeta db > datahumans_db > datahumans_db.sql</li>
+</ul>
+</li>
 </ul>
 
 <h4>2. Preparación de entornos</h4>
@@ -189,6 +193,18 @@ En esta parte inicial del proyecto, proponemos realizar un sistema de selección
 
 <ul>
 <li>En Visual Studio Code, buscar la tab "Terminal" en la tab superior y hacer clic en "New Terminal"</li>
+<li>Ejecutar el comando "cd aplicacion"</li>
+<li>Una vez dentro de la carpeta aplicacion, ejecutar en la terminal "pip install dependencias.txt"</li>
 <li>Ejecutar el comando "python index.py"</li>
 <li>¡Listo! Ahora queda seguir los pasos del menú en la terminal</li>
 </ul>
+
+<hr />
+
+<h3 align="center" id="etica">Presentación en PDF</h3>
+<p align="center"><a href="https://github.com/rociogirardini/ispc-tpi-2024/blob/main/db/Base de datos del proyecto, sus diagramas y SQL"><strong>Ver Presentación en PDF »</strong></a></p>
+
+<hr />
+
+<h3 align="center" id="etica">Video explicativo</h3>
+<p align="center"><a href="https://drive.google.com/drive/folders/11EwPR3i7tPjwEvff2iqrhC7W5VAbgdK1?usp=sharing"><strong>Link al video »</strong></a></p>
