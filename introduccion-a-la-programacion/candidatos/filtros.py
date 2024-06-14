@@ -32,6 +32,7 @@ def filtrar_por_requisitos():
                 print(f"Nivel academico: {postulante[6]}")
                 print(f"Puesto deseado: {postulante[8]}")
                 print("-"*50)
+            input("PRESIONE UNA TECLA PARA CONTINUAR...")
 
         elif opcion == "2":
             print("""\nSelecciona el nivel académico
@@ -54,12 +55,42 @@ def filtrar_por_requisitos():
                 print(f"Nivel academico: {postulante[6]}")
                 print(f"Puesto deseado: {postulante[8]}")
                 print("-"*50)
+            input("PRESIONE UNA TECLA PARA CONTINUAR...")
 
         elif opcion == "3":
-            input("Presiona una tecla para continuar...")
+            print("""\nSelecciona tipo de puesto
+                    \n1. Vendedor
+                    \n2. Maestranza
+                    \n3. Administrativo
+                    \n4. Productor""")
+            
+            puesto = int(input("Ingresa opción: "))
+            
+            if puesto == 1:
+                cursor.execute("SELECT * FROM postulante WHERE Puestodeseado = 'Vendedor'")
+                postulantes_cba = cursor.fetchall()
+
+            elif puesto == 2:
+                cursor.execute("SELECT * FROM postulante WHERE Puestodeseado = 'Maestranza'")
+                postulantes_cba = cursor.fetchall()
+            
+            elif puesto == 3:
+                cursor.execute("SELECT * FROM postulante WHERE Puestodeseado = 'Administrativo'")
+                postulantes_cba = cursor.fetchall()
+            
+            elif puesto == 4:
+                cursor.execute("SELECT * FROM postulante WHERE Nivelacademico = 'Productor'")
+                postulantes_cba = cursor.fetchall()
+
+            for postulante in postulantes_cba:
+                print("\n")
+                print(f"Nombre y apellido: {postulante[2]}, {postulante[3]}")
+                print(f"Nivel academico: {postulante[6]}")
+                print(f"Puesto deseado: {postulante[8]}")
+                print("-"*50)
+            input("PRESIONE UNA TECLA PARA CONTINUAR...")
     
         elif opcion == "4":
-            print("Saliendo del programa...")
             break
         else:
             print("Opción no válida. Intentá nuevamente.")
