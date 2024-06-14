@@ -1,60 +1,67 @@
-import os
 
 def filtrar_por_requisitos():
-    os.system('clear')
-    print('\nFiltrar por:\n')
+    import mysql.connector
+    postulantes_cba = None
+    conexion = mysql.connector.connect(user='root',
+                                    password='123456',
+                                    host='localhost',
+                                    database="data_human´s"
+                                    )
 
-
-'''
-# en esta funcion podriamos pasarle como argumento el ID de la vacante que debe comparar y retornar los resultados de las coincidencias
-# en esta propuesta usé SQLite que ya viene con python, pero hay que modificar el import y la conexion para usar MySQL
-def filtrar_por_requisitos():
-
-    import os
-
-    import sqlite3
-
-    os.system('clear')
-
-    # define lista para almacenar las posibles coincidencias
-    coincidencias = []
-
-    print('\nFiltrar por:\n')
-
-    print('COINCIDENCIAS')
-
-    # se ingresa ID de la vacante para buscar posibles coincidencias
-    print('Ingresa el ID de la vacante para ver los candidatos que cumplen los requisitos')
-    vacante_id = str(input('ID:'))
-
-    conexion = sqlite3.connect("base_de_datos.db") # conecta con bd
-    
-    cursor = conexion.cursor() # Crea cursor para poder poder ejecutar sentencias de SQL
-    
-    cursor.execute("SELECT * FROM VACANTE/S WHERE Id_VACANTE/S = " + str(vacante_id)) # realiza la consulta para la entidad "VACANTE/S".
-    
-    vacante = cursor.fetchall() # almacena los resultados obtenidos en variable, esta info obtenida se usaria para hacer las comparaciones
-    # de los requerimientos para el puesto y también mostramos en pantalla los detalles de la vacante
-
-    cursor.execute("SELECT * FROM POSTULANTE") # realiza la consulta para la entidad "POSTULANTE".
-    
-    postulantes = cursor.fetchall() # almacena los resultados obtenidos en variable, queda como una  lista de tuplas
-
-    # Se supone que por cada elemto devuelve una tupla: (id_postulante, dni, nombre, apellido, fecha_nacimiento, recidencia, nivel_academico, cv, puesto_deseado)
-    # Fecha_nacimiento la asumimos como edad (Despues hacemos el cálculo anios = fecha_actual - fecha_nacimiento)
-
-    conexion.close() 
+    cursor = conexion.cursor()
 
     
-    for postulante in postulantes: # Itera sobre la lista obtenida de la consulta a la DB
-        
-        # Primero deberíamos comparar los requisitos excluyentes brindados por cada puesto en particular
-        # Por ahora solo planteo la comparación con los requisitos básicos de la consigna: mayor de 18 años, vivir en ciudad de Córdoba y secundario completo
-        if postulante[4] >= 18 and postulante[5] == 'cordoba' and postulante[6]: #el nivel_academico lo asumo como un valor lógico, secundario_completo = True/False
-            coincidencias.append(postulante)
+    while True:
+        print('\nFiltrar por:\n')
 
-    # muestra cada coincidencia en consola
-    for i in coincidencias:
-        print(i)
+        print("1. Residencia en Cordoba")
+        print("2. Nivel academico")
+        print("3. Puesto deseado")
+        print("4. Salir")
+        print("\n\n")
 
-'''
+        opcion = input("Seleccione una opción (1-4): ")
+
+        if opcion == "1":
+            cursor.execute("SELECT * FROM postulante WHERE Residencia = 'Cordoba'")
+            postulantes_cba = cursor.fetchall()
+
+            for postulante in postulantes_cba:
+                print("\n")
+                print(f"Nombre y apellido: {postulante[2]}, {postulante[3]}")
+                print(f"Nivel academico: {postulante[6]}")
+                print(f"Puesto deseado: {postulante[8]}")
+                print("-"*50)
+
+        elif opcion == "2":
+            print("""\nSelecciona el nivel académico
+                    \n1. Secundarios
+                    \n2. Universitarios""")
+            
+            nvl_academico = int(input("Ingresa opción: "))
+            
+            if nvl_academico == 1:
+                cursor.execute("SELECT * FROM postulante WHERE Nivelacademico = 'Secundarios'")
+                postulantes_cba = cursor.fetchall()
+
+            elif nvl_academico == 2:
+                cursor.execute("SELECT * FROM postulante WHERE Nivelacademico = 'Universitarios'")
+                postulantes_cba = cursor.fetchall()
+
+            for postulante in postulantes_cba:
+                print("\n")
+                print(f"Nombre y apellido: {postulante[2]}, {postulante[3]}")
+                print(f"Nivel academico: {postulante[6]}")
+                print(f"Puesto deseado: {postulante[8]}")
+                print("-"*50)
+
+        elif opcion == "3":
+            input("Presiona una tecla para continuar...")
+    
+        elif opcion == "4":
+            print("Saliendo del programa...")
+            break
+        else:
+            print("Opción no válida. Intentá nuevamente.")
+
+    conexion.close()

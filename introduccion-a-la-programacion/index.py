@@ -21,16 +21,22 @@ def seleccion_personal():
 
         if opcion == "1":
             ver_candidatos()
+            input("Presiona una tecla para continuar...")
         elif opcion == "2":
             filtrar_por_requisitos()
+            input("Presiona una tecla para continuar...")
         elif opcion == "3":
             cargar_vacante()
+            input("Presiona una tecla para continuar...")
         elif opcion == "4":
             modificar_vacante()
+            input("Presiona una tecla para continuar...")
         elif opcion == "5":
             eliminar_vacante()
+            input("Presiona una tecla para continuar...")
         elif opcion == "6":
             ver_vacantes()
+            input("Presiona una tecla para continuar...")
         elif opcion == "7":
             print("Saliendo del programa...")
             break
@@ -44,3 +50,4 @@ if __name__ == "__main__":
 
 # MODULARIZAR CONEXION CON BASE DE DATOS
 # HACER VALIDACIONES DE DATOS, SI EXISTEN, SI SON LOS DATOS ESPERADOS, ETC
+# corregir script sql id unique

@@ -1,31 +1,34 @@
-import os
 
 def ver_vacantes():
-    os.system('clear')
+    
+    import mysql.connector
+
     print('\nListado de vacantes:\n')
-    # for id, datos in vacantes.items():
-    #     print("ID:", id)
-    #     print("Titulo:", datos["titulo"])
-    #     print("Descripción:", datos["descripcion"])
-    #     print("Condición de Contratación:", datos["condicion_contratacion"])
-    #     print("Se considera:", datos["se_considera"])
-    #     print("-" * 20, "\n")
-
-
-
-# ------------------------------- CONECTAR CON DB ---------------------------------------
-    '''import mysql.connector
 
     conexion = mysql.connector.connect(user='root',
                                     password='123456',
                                     host='localhost',
-                                    port='3306',
-                                    database='data_humans.db')
+                                    database="data_human´s"
+                                    )
 
     cursor = conexion.cursor()
 
-    a = input()
+    cursor.execute(f'SELECT * FROM vacantes')
 
-    cursor.execute(f"SELECT * FROM VACANTE/S WHERE id_VACANTE/S = {a}")
+    vacantes = cursor.fetchall()
 
-    conexion.close()'''
+
+    #print(vacantes)
+
+    for vac in vacantes:
+        cursor.execute(f'SELECT Descripcion, Condicion_contratacion, Seconsidera FROM caracteristicaspuesto WHERE Id_caractpuesto = {vac[4]}')
+        caracteristica_puesto = cursor.fetchall()   
+
+        print("ID:", vac[0])
+        print("Titulo:", vac[3])
+        print("Descripción:", caracteristica_puesto[0][0])
+        print("Condición de Contratación:", caracteristica_puesto[0][1])
+        print("Se considera:", caracteristica_puesto[0][2])
+        print("-" * 20, "\n")
+
+    conexion.close()

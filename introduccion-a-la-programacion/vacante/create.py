@@ -5,15 +5,12 @@
 # el id se puedo configurar directamente en SQL como AUTO_INCREMENT y a medida que hacemos registros le asigna el id siguiente
 
 def cargar_vacante():
-    import os    
     import mysql.connector
-    
-    os.system('clear')
     
     print('\nDatos de la nueva vacante:\n')
 
-    cuit = int(input("Ingresa el CUIT de tu empresa (Sin puntos ni guiones 11 digitos):"))
-    titulo_puesto = input("Ingresá el título del puesto vacante: ")
+    cuit = int(input("Ingresa el CUIT de tu empresa (Sin puntos ni guiones 11 digitos): "))
+    titulo_puesto = input("\nIngresá el título del puesto vacante: ")
     descripcion = (input("Ingresá una descripción: "))
     condicion_contratacion = input("Ingresá las condiciones de contratación (por tiempo indeterminado/determinado): ")
     experiencia = input("Se requiere experiencia?")
@@ -68,9 +65,9 @@ def cargar_vacante():
                                     VALUES ({nuevo_id_vacante},
                                             {id_empresa},
                                             {cant_vacantes},
-                                            'Vendedora',
+                                            '{titulo_puesto}',
                                             {nuevo_id_vacante},
-                                            '2024-6-12', 
+                                            '{fecha}', 
                                             {nuevo_id_vacante})''')
 
 
@@ -86,11 +83,11 @@ def cargar_vacante():
                                                         Seconsidera) 
                                                 VALUES ({nuevo_id_vacante},
                                                         {nuevo_id_vacante},
-                                                        "prueba",
-                                                        "c",
-                                                        "d",
-                                                        "e", 
-                                                        "f")''')
+                                                        '{descripcion}',
+                                                        '{condicion_contratacion}',
+                                                        '{experiencia}',
+                                                        '{excluyente}', 
+                                                        '{se_considera}')''')
 
 # carga datos pero da error al pasar variables como parametro, probar con comillas
 
@@ -98,3 +95,5 @@ def cargar_vacante():
     conexion.commit()
 
     conexion.close()
+
+#cargar_vacante()

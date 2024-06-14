@@ -1,12 +1,9 @@
 
 def eliminar_vacante():
-    import os
+    
     import mysql.connector
 
-    os.system('clear')
-
-
-    print('\nEliminar vacante por ID:\n')
+    print('\nEliminar vacante por ID\n')
     
     id = int(input("Ingresá el ID de la vacante que querés eliminar: "))
 
@@ -20,7 +17,10 @@ def eliminar_vacante():
 
     # BORRA DATOS SEGúN CONDICIÓN, SI NO SE PONE CONDICIÓN BORRA TODA LA TABLA
     cursor.execute(f"DELETE FROM vacantes WHERE Id_vacantes = {id}")
+    cursor.execute(f"DELETE FROM caracteristicaspuesto WHERE Id_caractpuesto = {id}")
 
     conexion.commit()
 
     conexion.close()
+
+#eliminar_vacante()
