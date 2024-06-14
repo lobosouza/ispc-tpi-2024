@@ -21,7 +21,7 @@ def ver_vacantes():
     #print(vacantes)
 
     for vac in vacantes:
-        cursor.execute(f'SELECT Descripcion, Condicion_contratacion, Seconsidera FROM caracteristicaspuesto WHERE Id_caractpuesto = {vac[4]}')
+        cursor.execute(f'SELECT Descripcion, Condicioncontratacion, Seconsidera FROM caracteristicaspuesto WHERE Id_caractpuesto = {vac[4]}')
         caracteristica_puesto = cursor.fetchall()   
 
         print("ID:", vac[0])
