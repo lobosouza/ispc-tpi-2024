@@ -201,10 +201,10 @@ En esta parte inicial del proyecto, proponemos realizar un sistema de selección
 
 <hr />
 
-<h3 align="center" id="etica">Presentación en PDF</h3>
+<h3 align="center" id="pdf">Presentación en PDF</h3>
 <p align="center"><a href="https://github.com/rociogirardini/ispc-tpi-2024/blob/main/db/Base%20de%20datos%20del%20proyecto%2C%20sus%20diagramas%20y%20SQL.pdf"><strong>Ver Presentación en PDF »</strong></a></p>
 
 <hr />
 
-<h3 align="center" id="PDF">Video explicativo</h3>
-<p align="center"><a href="https://drive.google.com/drive/folders/11EwPR3i7tPjwEvff2iqrhC7W5VAbgdK1?usp=sharing"><strong>Link al video »</strong></a></p>
+<h3 align="center" id="video">Video explicativo</h3>
+<p align="center"><a href="https://drive.google.com/file/d/1DCGndz2koydTXqcuZBsKS5mhX70BrX-T/view"><strong>Link al video »</strong></a></p>
