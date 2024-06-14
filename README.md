@@ -195,6 +195,8 @@ En esta parte inicial del proyecto, proponemos realizar un sistema de selección
 <ul>
 <li>En Visual Studio Code, buscar la tab "Terminal" en la tab superior y hacer clic en "New Terminal"</li>
 <li>Una vez dentro de la carpeta aplicacion, ejecutar en la terminal "pip install dependencias.txt" o, si no anduviera, ejecutar directamente "pip install mysql-connector-python"</li>
+<li>En el VSC, ejecutar Crtl + Shift + F y escribir "mysql.connector.connect"</li>
+<li>En todos los archivos donde se use "mysql.connector.connect", cambiar el campo "password" por tu contraseña de mySQL</li>
 <li>Ejecutar el comando "python index.py"</li>
 <li>¡Listo! Ahora queda seguir los pasos del menú en la terminal</li>
 </ul>
