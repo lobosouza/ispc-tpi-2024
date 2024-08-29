@@ -22,7 +22,7 @@
     <li>
       <a href="#integrantes">Integrantes</a>
     </li>
-    <li><a href="#introduccion-a-la-programación">Introducción a la programación</a>
+    <li><a href="#introduccion-a-la-programación">Innovación y gestión de datos</a>
      <ul>
         <li><a href="#presentación">Presentación del proyecto</a></li>
         <li><a href="#descripción">Descripción inicial</a></li>
@@ -48,7 +48,7 @@ Carlos Direni - 28.117.281 - direnicarlos@gmail.com - https://github.com/Cdireni
 
 <hr />
 
-<h3 align="center" id="introduccion-a-la-programación">Introducción a la programación</h3>
+<h3 align="center" id="introduccion-a-la-programación">Innovación y gestión de datos</h3>
 
 <h4 id='presentación'><strong>PRESENTACIÓN</strong></h4>
 
