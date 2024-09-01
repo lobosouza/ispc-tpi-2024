@@ -52,13 +52,17 @@ Carlos Direni - 28.117.281 - direnicarlos@gmail.com - https://github.com/Cdireni
 <h3 align="center" id="programaciónI">Innovación y gestión de datos</h3>
 
 <h4 id='descripciónrepo'><strong>DESCRPCIÓN DEL REPOSITORIO</strong></h4>
+<hr/>
+<h3> Evidencia 1</h3>
 
 <p>En el repositorio, específicamente dentro de la carpeta 2° Cuatrimestre, la carpeta Evidencia1, que contiene un sub-archivo denominado app, con lo solicitado para cumplir los requisitos de la Evidencia 1, del módulo de Innovación y gestión de Base de Datos. En ella se encuentran: el Módulo de armética (aritmetica.py), la Pantalla de Bienvenida (pantalla_inicio.py), el Inicio de Sesión (f_login.py).
 Además podrá encontrar lo solicitado por Base de Datos II, el documento estructurado con la descripción y objetivos del proyecto, y otro con lo correspondiente a la base de datos, y el agregado del diagrama de entidad relación en formato jpg.</p>
 <hr/>
-<h3> Evidencia 1</h3>
-<p align="center"><a href="https://github.com/AllendeNicolas/ispc-tpi-2024/tree/main/2%C2%B0%20Cuatrimestre/Evidencia1"><strong>Ver Diagrama Entidad - Relación »</strong></a></p>
+<h3> align="center" Link Evidencia 1</h3>
+<p align="center"><a href="https://github.com/AllendeNicolas/ispc-tpi-2024/tree/main/2%C2%B0%20Cuatrimestre/Evidencia1"><strong>Ver Evidencia 1»</strong></a></p>
 
+
+<hr/>
 <h4 id='presentación'><strong>PRESENTACIÓN</strong></h4>
 
 <p>DATA HUMAN'S es una empresa dedicada al desarrollo y mantenimiento de Software y Bases de Datos, orientada a la organización y asistencia de los departamentos de Recursos Humanos (RRHH), de las empresas en general.</p>
