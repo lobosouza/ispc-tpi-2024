@@ -26,7 +26,7 @@
      <ul>
         <li><a href="#presentación">Presentación del proyecto</a></li>
         <li><a href="#descripción">Descripción inicial</a></li>
-        <li><a href="#pseudocodigo">Diagrama Entidad-Relación</a></li>
+        <li><a href="#bbdd">Diagrama Entidad-Relación</a></li>
       </ul>
     </li>
   </ul>
@@ -65,3 +65,6 @@ Carlos Direni - 28.117.281 - direnicarlos@gmail.com - https://github.com/Cdireni
 <h4 id='descripción'><strong>DESCRIPCIÓN INICIAL DEL PROYECTO</strong></h4>
 
 En esta parte inicial del proyecto, proponemos realizar un sistema de selección de personal básico, donde la empresa que utiliza la aplicación podría ingresar los datos de una vacante, así como modificarla o eliminarla. Además, también podría ver los candidatos disponibles para el puesto, o filtrar por algún requisito en específico y ver solo ciertos candidatos.
+
+<h3 align="center" id="bbdd">Diagrama Crow´s Foot (E-R)</h3>
+<p align="center"><a href="https://github.com/AllendeNicolas/ispc-tpi-2024/blob/main/2%C2%B0%20Cuatrimestre/Evidencia1/PROYECTO%20DATA%20HUMAN%C2%B4S%20DCF%20(2).jpeg"><strong>Ver Diagrama Entidad - Relación »</strong></a></p>
