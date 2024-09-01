@@ -13,5 +13,5 @@ elif opc == 1:
     f_login.login()
 
 elif opc == 2:
-    import f_registro
+    import f_registro #nombre ficticio. se debe ajustar despues del desarrollo de la funcion registrar usuario
     f_registro.registro()
