@@ -61,6 +61,10 @@ Además podrá encontrar lo solicitado por Base de Datos II, el documento estruc
 <h3> Link Evidencia 1</h3>
 <p align="center"><a href="https://github.com/AllendeNicolas/ispc-tpi-2024/tree/main/2%C2%B0%20Cuatrimestre/Evidencia1"><strong>Ver Evidencia 1»</strong></a></p>
 
+<hr/>
+
+<h3 align="center" id="bbdd">Diagrama Crow´s Foot (E-R)</h3>
+<p align="center"><a href="https://github.com/AllendeNicolas/ispc-tpi-2024/blob/main/2%C2%B0%20Cuatrimestre/Evidencia1/PROYECTO%20DATA%20HUMAN%C2%B4S%20DCF%20(2).jpeg"><strong>Ver Diagrama Entidad - Relación »</strong></a></p>
 
 <hr/>
 <h4 id='presentación'><strong>PRESENTACIÓN</strong></h4>
@@ -78,6 +82,3 @@ Además podrá encontrar lo solicitado por Base de Datos II, el documento estruc
 <h4 id='descripción'><strong>DESCRIPCIÓN INICIAL DEL PROYECTO</strong></h4>
 
 En esta parte inicial del proyecto, proponemos realizar un sistema de selección de personal básico, donde la empresa que utiliza la aplicación podría ingresar los datos de una vacante, así como modificarla o eliminarla. Además, también podría ver los candidatos disponibles para el puesto, o filtrar por algún requisito en específico y ver solo ciertos candidatos.
-
-<h3 align="center" id="bbdd">Diagrama Crow´s Foot (E-R)</h3>
-<p align="center"><a href="https://github.com/AllendeNicolas/ispc-tpi-2024/blob/main/2%C2%B0%20Cuatrimestre/Evidencia1/PROYECTO%20DATA%20HUMAN%C2%B4S%20DCF%20(2).jpeg"><strong>Ver Diagrama Entidad - Relación »</strong></a></p>
