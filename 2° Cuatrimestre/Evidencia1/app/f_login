@@ -7,8 +7,11 @@ def login():
     pwd = input("contraseña ")
 
     k = 0 #variable para indicar al usuario que intente nuevamente si no hay coincidencia en el diccionario
-    import f_registro
-    import reg_users from f_registro.registro()
+    import f_registro 
+    import reg_users from f_registro.registro() 
+
+    '''nombre de archivos ficticios. Depende del desarrollo de la función de registrar usuario. 
+    en la iteracion abajo, sucede los mismo'''
 
     for i in range(len(f_registro.reg_users)):
         if f_registro.reg_users[i].Nombre == us and f_registro.reg_users[i].Clave == pwd:
