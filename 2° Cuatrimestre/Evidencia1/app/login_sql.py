@@ -1,5 +1,5 @@
 import mysql.connector # Conectar a la base de datos
-from getpass import getpass  # no se puede ver la contrasenia
+from getpass import getpass  # ocultar contraseña
 
 connection = mysql.connector.connect(user='root',
                                     password='root',
