@@ -1,11 +1,11 @@
 import mysql.connector # Conectar a la base de datos
 from getpass import getpass  # ocultar contraseña
 
-connection = mysql.connector.connect(user='root',
-                                    password='root',
-                                    port='3306',
-                                    host='localhost',
-                                    database="datahumans_db"
+connection = mysql.connector.connect(user=' ------',        # ingresar datos de base de datos local
+                                    password='------',
+                                    port='------',
+                                    host='-------',
+                                    database="-------"
                                     )
 cursor = connection.cursor()
 
