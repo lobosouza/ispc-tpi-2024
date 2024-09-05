@@ -10,7 +10,7 @@
 </div>
 
 
-<div id="cuatrimestre2"></div>
+<div id="cuatrimestre2">
 	
 	<h2><a href="https://github.com/AllendeNicolas/ispc-tpi-2024/tree/main/2%C2%B0%20Cuatrimestre">📂 2° Cuatrimestre</a></h2>
 	
@@ -30,7 +30,7 @@ Carlos Direni - 28.117.281 - direnicarlos@gmail.com - https://github.com/Cdireni
 </div>
 
 
-<div id="cuatrimestre1"></div>
+<div id="cuatrimestre1">
 
 	<h2><a href="https://github.com/AllendeNicolas/ispc-tpi-2024/tree/main/1%C2%B0%20Cuatrimestre">📂 1° Cuatrimestre</a></h2>
 	
