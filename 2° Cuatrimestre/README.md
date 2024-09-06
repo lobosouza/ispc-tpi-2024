@@ -51,7 +51,7 @@ Carlos Direni - 28.117.281 - direnicarlos@gmail.com - https://github.com/Cdireni
 
 <h3 align="center" id="programaciónI">Innovación y gestión de datos</h3>
 
-<h4 id='descripciónrepo'><strong>DESCRPCIÓN DEL REPOSITORIO</strong></h4>
+<h4 id='descripciónrepo'><strong>DESCRIPCIÓN DEL REPOSITORIO</strong></h4>
 <hr/>
 <h3> Evidencia 1</h3>
 
