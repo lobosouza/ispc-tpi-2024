@@ -25,10 +25,10 @@
     <li><a href="#programaciónI">Innovación y gestión de datos</a>
      <ul>
         <li><a href="#descripciónrepo">Descripción del repositorio</a></li>
+         <li><a href="#docbbdd">Documento Base de Datos</a></li>
+        <li><a href="#bbdd">Diagrama Entidad-Relación</a></li> 
         <li><a href="#presentación">Presentación del proyecto</a></li>
         <li><a href="#descripción">Descripción inicial</a></li>
-        <li><a href="#docbbdd">Documento Base de Datos</a></li>
-        <li><a href="#bbdd">Diagrama Entidad-Relación</a></li>  
       </ul>
     </li>
   </ul>
