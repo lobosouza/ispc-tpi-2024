@@ -56,7 +56,7 @@ Carlos Direni - 28.117.281 - direnicarlos@gmail.com - https://github.com/Cdireni
 <hr/>
 <h3> Evidencia 1</h3>
 
-<p>En el repositorio, específicamente dentro de la carpeta 2° Cuatrimestre, la carpeta Evidencia1, que contiene un sub-archivo denominado app, con lo solicitado para cumplir los requisitos de la Evidencia 1, del módulo de Innovación y gestión de Base de Datos. En ella se encuentran: el Módulo de armética (aritmetica.py), la Pantalla de Bienvenida (pantalla_inicio.py), el Inicio de Sesión (f_login.py), el Registro de Usuario(registro_usuario.py), su Verificacion (verificacion.py), y el Test del modulo de aritmética (test_aritmetica.py).
+<p>En el repositorio, específicamente dentro de la carpeta 2° Cuatrimestre, la carpeta Evidencia1, que contiene un sub-archivo denominado app, con lo solicitado para cumplir los requisitos de la Evidencia 1, del módulo de Innovación y gestión de Base de Datos. En ella se encuentran: el Módulo de armética (aritmetica.py), la Pantalla de Bienvenida (pantalla_inicio.py), el Inicio de Sesión (f_login.py), el Registro de Usuario(registro_usuario.py), su Verificacion de CAPTCHA (captcha.py), y el Test del modulo de aritmética (test_aritmetica.py).
  
 Además podrá encontrar lo solicitado por Base de Datos II, el documento estructurado con la descripción y objetivos del proyecto, en el mismo, lo correspondiente a la base de datos, su descripción y contenido en formato PFD, y el agregado del diagrama de entidad relación en formato jpg.</p>
 <hr/>
