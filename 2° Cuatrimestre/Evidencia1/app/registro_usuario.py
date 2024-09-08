@@ -1,6 +1,6 @@
 import mysql.connector
 from getpass import getpass  # no se puede ver la contrasenia
-import verificacion
+import captcha
 
 # Conectar a la base de datos
 connection = mysql.connector.connect(user='root',
@@ -10,6 +10,26 @@ connection = mysql.connector.connect(user='root',
                                     database="datahumans_db"
                                     )
 cursor = connection.cursor()
+
+# Función de verificación con captcha
+def verificacion():
+
+    if captcha.verificar_captcha():
+       try:
+            connection.commit()
+            print("Usuario registrado con éxito.")
+
+        except mysql.connector.Error as err:
+            print(f"Error: {err}") 
+            connection.rollback()
+
+        except Exception as e:
+            print(f"Ocurrió un error: {e}")
+            connection.rollback()
+    else:
+        print("Algo está mal, inténtalo nuevamente")
+        verificacion()
+
 # Función para registrar un usuario
 def registrar_usuario():
     print("Por favor, ingrese los siguientes datos del usuario:")
@@ -28,27 +48,11 @@ def registrar_usuario():
     """
     # Ejecutar la consulta con los valores proporcionados
     cursor.execute(sql, (nombre, apellido, dni, correo_electronico, fecha_nacimiento, nombreUsuario, clave))
-    
-    verificacion.realizar_operacion()
+
+    #verificar usuario con captcha
+    verificacion()
 
 
-    if verificacion.cap == True:
-        try:
-            connection.commit()
-            print("Usuario registrado con éxito.")
-
-        except mysql.connector.Error as err:
-            print(f"Error: {err}") 
-            connection.rollback()
-
-        except Exception as e:
-            print(f"Ocurrió un error: {e}")
-            connection.rollback()
-    elif verificacion.cap == False:
-        print("Algo está mal! Intente nuevamente")
-        registrar_usuario()
-
-    
 # Llamar a la función para registrar el usuario
 #registrar_usuario()
 
