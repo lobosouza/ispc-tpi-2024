@@ -65,7 +65,7 @@ Además podrá encontrar lo solicitado por Base de Datos II, el documento estruc
 <hr/>
 
 <h3 align="center" id="docbbdd">Documento Base de Datos</h3>
-<p align="center"><a href="https:https://github.com/AllendeNicolas/ispc-tpi-2024/blob/main/2%C2%B0%20Cuatrimestre/Evidencia1/db/Documento%20Base%20de%20Datos-Proyecto%20DataHumans.pdf"><strong>Ver Documento Estructurado Base de Datos »</strong></a></p>
+<p align="center"><a href="https://github.com/AllendeNicolas/ispc-tpi-2024/blob/main/2%C2%B0%20Cuatrimestre/Evidencia1/db/Documento%20Base%20de%20Datos-Proyecto%20DataHumans.pdf"><strong>Ver Documento Estructurado Base de Datos »</strong></a></p>
 
 <hr/>
 
