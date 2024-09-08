@@ -64,7 +64,7 @@ Además podrá encontrar lo solicitado por Base de Datos II, el documento estruc
 <hr/>
 
 <h3 align="center" id="bbdd">Diagrama Crow´s Foot (E-R)</h3>
-<p align="center"><a href="https://github.com/AllendeNicolas/ispc-tpi-2024/blob/main/2%C2%B0%20Cuatrimestre/Evidencia1/PROYECTO%20DATA%20HUMAN%C2%B4S%20DCF%20(2).jpeg"><strong>Ver Diagrama Entidad - Relación »</strong></a></p>
+<p align="center"><a href="https://github.com/AllendeNicolas/ispc-tpi-2024/blob/main/2%C2%B0%20Cuatrimestre/Evidencia1/db/PROYECTO%20DATA%20HUMAN%C2%B4S%20DCF%20(con%20Usuario_id).jpeg"><strong>Ver Diagrama Entidad - Relación »</strong></a></p>
 
 <hr/>
 <h4 id='presentación'><strong>PRESENTACIÓN</strong></h4>
