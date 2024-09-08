@@ -15,14 +15,12 @@ cursor = connection.cursor()
 def verificacion():
 
     if captcha.verificar_captcha():
-       try:
+        try:
             connection.commit()
             print("Usuario registrado con éxito.")
-
         except mysql.connector.Error as err:
             print(f"Error: {err}") 
             connection.rollback()
-
         except Exception as e:
             print(f"Ocurrió un error: {e}")
             connection.rollback()
