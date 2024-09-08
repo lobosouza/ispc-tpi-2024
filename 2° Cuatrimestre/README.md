@@ -57,7 +57,7 @@ Carlos Direni - 28.117.281 - direnicarlos@gmail.com - https://github.com/Cdireni
 <h3> Evidencia 1</h3>
 
 <p>En el repositorio, específicamente dentro de la carpeta 2° Cuatrimestre, la carpeta Evidencia1, que contiene un sub-archivo denominado app, con lo solicitado para cumplir los requisitos de la Evidencia 1, del módulo de Innovación y gestión de Base de Datos. En ella se encuentran: el Módulo de armética (aritmetica.py), la Pantalla de Bienvenida (pantalla_inicio.py), el Inicio de Sesión (f_login.py), el Registro de Usuaria(registro_usuario.py), su Verificacion (verificacion.py).
-Además podrá encontrar lo solicitado por Base de Datos II, el documento estructurado con la descripción y objetivos del proyecto, y en el mismo, lo correspondiente a la base de datos, su descripción y contenido, y el agregado del diagrama de entidad relación en formato jpg.</p>
+Además podrá encontrar lo solicitado por Base de Datos II, el documento estructurado con la descripción y objetivos del proyecto, en el mismo, lo correspondiente a la base de datos, su descripción y contenido en formato PFD, y el agregado del diagrama de entidad relación en formato jpg.</p>
 <hr/>
 <h3> Link Evidencia 1</h3>
 <p align="center"><a href="https://github.com/AllendeNicolas/ispc-tpi-2024/tree/main/2%C2%B0%20Cuatrimestre/Evidencia1"><strong>Ver Evidencia 1 »</strong></a></p>
