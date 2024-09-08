@@ -45,7 +45,7 @@ Lucas Ryser - 44.346.194 - lucasryser4k@gmail.com - https://github.com/lucasryse
 Emanuel Guaráz - 38.276.061- guarazjemanuel@gmail.com https://github.com/JEmanuelG</br>
 Nicolás Allende Olmedo - 35.871.057 - nicoallende92@gmail.com - https://github.com/AllendeNicolas</br>
 Bruno Lobo Souza - 95.690.709 - lobosouza.it@gmail.com - https://github.com/lobosouza</br>
-Carlos Direni - 28.117.281 - direnicarlos@gmail.com - https://github.com/Cdireni1</br>
+Carlos Direni - 28.117.281 - direnicarlos@gmail.com - https://github.com/Cdireni</br>
 
 <hr />
 
