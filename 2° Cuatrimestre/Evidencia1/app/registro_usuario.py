@@ -52,7 +52,7 @@ def registrar_usuario():
 
 
 # Llamar a la función para registrar el usuario
-#registrar_usuario()
+registrar_usuario()
 
 # Cerrar la conexión
 cursor.close()
