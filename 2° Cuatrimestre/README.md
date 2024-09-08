@@ -17,7 +17,7 @@
 
 <!-- INDICE -->
 <details>
-  <summary>Tabla de contenidos</summary>
+  <summary><strong>TABLA DE CONTENIDOS</strong></summary>
   <ul>
     <li>
       <a href="#integrantes">Integrantes</a>
