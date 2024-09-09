@@ -17,16 +17,18 @@
 
 <!-- INDICE -->
 <details>
-  <summary>Tabla de contenidos</summary>
+  <summary><strong>TABLA DE CONTENIDOS</strong></summary>
   <ul>
     <li>
       <a href="#integrantes">Integrantes</a>
     </li>
-    <li><a href="#introduccion-a-la-programación">Innovación y gestión de datos</a>
+    <li><a href="#programaciónI">Innovación y gestión de datos</a>
      <ul>
+        <li><a href="#descripciónrepo">Descripción del repositorio</a></li>
+         <li><a href="#docbbdd">Documento Base de Datos</a></li>
+        <li><a href="#bbdd">Diagrama Entidad-Relación</a></li> 
         <li><a href="#presentación">Presentación del proyecto</a></li>
         <li><a href="#descripción">Descripción inicial</a></li>
-        <li><a href="#pseudocodigo">Diagrama Entidad-Relación</a></li>
       </ul>
     </li>
   </ul>
@@ -44,12 +46,34 @@ Lucas Ryser - 44.346.194 - lucasryser4k@gmail.com - https://github.com/lucasryse
 Emanuel Guaráz - 38.276.061- guarazjemanuel@gmail.com https://github.com/JEmanuelG</br>
 Nicolás Allende Olmedo - 35.871.057 - nicoallende92@gmail.com - https://github.com/AllendeNicolas</br>
 Bruno Lobo Souza - 95.690.709 - lobosouza.it@gmail.com - https://github.com/lobosouza</br>
-Carlos Direni - 28.117.281 - direnicarlos@gmail.com - https://github.com/Cdireni1</br>
+Carlos Direni - 28.117.281 - direnicarlos@gmail.com - https://github.com/Cdireni</br>
 
 <hr />
 
-<h3 align="center" id="introduccion-a-la-programación">Innovación y gestión de datos</h3>
+<h3 align="center" id="programaciónI">Innovación y gestión de datos</h3>
 
+<h4 id='descripciónrepo'><strong>DESCRIPCIÓN DEL REPOSITORIO</strong></h4>
+<hr/>
+<h3> Evidencia 1</h3>
+
+<p>En el repositorio, específicamente dentro de la carpeta 2° Cuatrimestre, la carpeta Evidencia1, que contiene un sub-archivo denominado app, con lo solicitado para cumplir los requisitos de la Evidencia 1, del módulo de Innovación y gestión de Base de Datos. En ella se encuentran: el Módulo de armética (aritmetica.py), la Pantalla de Bienvenida (pantalla_inicio.py), el Inicio de Sesión (f_login.py), el Registro de Usuario(registro_usuario.py), su Verificacion de CAPTCHA (captcha.py), y el Test del modulo de aritmética (test_aritmetica.py).
+ 
+Además podrá encontrar lo solicitado por Base de Datos II, el documento estructurado con la descripción y objetivos del proyecto, en el mismo, lo correspondiente a la base de datos, su descripción y contenido en formato PFD, y el agregado del diagrama de entidad relación en formato jpg.</p>
+<hr/>
+<h3> Link Evidencia 1</h3>
+<p align="center"><a href="https://github.com/AllendeNicolas/ispc-tpi-2024/tree/main/2%C2%B0%20Cuatrimestre/Evidencia1"><strong>Ver Evidencia 1 »</strong></a></p>
+
+<hr/>
+
+<h3 align="center" id="docbbdd">Documento Base de Datos</h3>
+<p align="center"><a href="https://github.com/AllendeNicolas/ispc-tpi-2024/blob/main/2%C2%B0%20Cuatrimestre/Evidencia1/db/Documento%20Base%20de%20Datos-Proyecto%20DataHumans.pdf"><strong>Ver Documento Estructurado Base de Datos »</strong></a></p>
+
+<hr/>
+
+<h3 align="center" id="bbdd">Diagrama Crow´s Foot (E-R)</h3>
+<p align="center"><a href="https://github.com/AllendeNicolas/ispc-tpi-2024/blob/main/2%C2%B0%20Cuatrimestre/Evidencia1/db/PROYECTO%20DATA%20HUMAN%C2%B4S%20DCF%20(con%20Usuario_id).jpeg"><strong>Ver Diagrama Entidad - Relación »</strong></a></p>
+
+<hr/>
 <h4 id='presentación'><strong>PRESENTACIÓN</strong></h4>
 
 <p>DATA HUMAN'S es una empresa dedicada al desarrollo y mantenimiento de Software y Bases de Datos, orientada a la organización y asistencia de los departamentos de Recursos Humanos (RRHH), de las empresas en general.</p>
