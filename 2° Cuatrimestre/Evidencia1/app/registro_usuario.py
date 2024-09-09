@@ -1,6 +1,7 @@
 import mysql.connector
 from getpass import getpass  # no se puede ver la contrasenia
-import captcha
+import re #validaciones de contra y usuario
+import captcha #validación con CAPTCHA
 
 # Conectar a la base de datos
 connection = mysql.connector.connect(user='root',
